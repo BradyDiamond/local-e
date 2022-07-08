@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+###### Research & Planning Log
+
+Friday 8:00-9:30 
+brainstorming and mvp structuring
+
+9:30-10:00
+proposal write up, react research(sql)
+
+10:00- 12:00
+react research (routing, authentication)
+firebase research
+12:00 - 2:30
+react research (redux ,state management)
+
+
+
+
