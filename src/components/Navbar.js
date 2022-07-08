@@ -1,17 +1,18 @@
 import React from 'react';
 import './Navbar.css'
 import logoImage from "./../img/locale_logo.png";
+import SearchIcon from '@mui/icons-material/Search';
 
 function Navbar() {
   return (
     <div className='navbar'>
     
-      <img className="Navbar-logo" src={logoImage}/>
+      <img className="navbar-logo" src={logoImage}/>
       
     
       <div
       className='navbar-search'>
-    
+        <SearchIcon className="navbar-searchIcon" />
         <input className='navbar-search-input' type='text' />
         
       </div>  
