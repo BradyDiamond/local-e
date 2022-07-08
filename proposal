@@ -1,0 +1,19 @@
+Name of Student: Brady Diamond
+
+Name of Project: LocalE
+
+Project's Purpose or Goal: (What will it do for users?) e commerce site for local businesses
+
+List the absolute minimum features the project requires to meet this purpose or goal: ability for users to browse products with user authentication
+
+What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
+react, npm, firebase
+
+If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
+payment authorization, uber style delivery system, react native component
+
+What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+React native
+
+Is there anything else you'd like your instructor to know?
+not at this time
