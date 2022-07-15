@@ -72,7 +72,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ###### Research & Planning Log
 
-Friday 8:00-9:30 
+Friday 7/8
+
+8:00-9:30 
 brainstorming and mvp structuring
 
 9:30-10:00
@@ -89,6 +91,12 @@ friday 7/15
 8:00-11:00
 react research (react context api, react router dom, possible addition of payment/authorization)
 
+11:00 -12:00
+react research (react router dom)
+
+4:00 - 5:00
+
+react research (react context api)
 
 
 
