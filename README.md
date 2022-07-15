@@ -82,7 +82,13 @@ proposal write up, react research(sql)
 react research (routing, authentication)
 firebase research
 12:00 - 2:30
-react research (redux ,state management)
+react research (redux, state management)
+
+
+friday 7/15
+8:00-11:00
+react research (react context api, react router dom, possible addition of payment/authorization)
+
 
 
 
