@@ -3,6 +3,7 @@ import './Checkout.css';
 import checkoutBanner from "./../img/checkoutbanner.png";
 import ProductCheckout from './ProductCheckout';
 import { useStateValue } from './StateProvider';
+import Subtotal from "./Subtotal"
 
 
 
@@ -34,7 +35,7 @@ function Checkout() {
 
   
       <div className='checkout-right'>
-    
+        <Subtotal />
       </div>
   
     </div>
