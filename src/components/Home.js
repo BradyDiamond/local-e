@@ -11,7 +11,7 @@ function Home() {
         
         <img className='home-image' src={homeImage}/>
         
-        <div className='home-row'>
+        <div className='home-row1'>
           <Store
           id={1}
           Name="Test Store"
