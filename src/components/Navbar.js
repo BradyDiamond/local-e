@@ -3,13 +3,14 @@ import './Navbar.css'
 import logoImage from "./../img/locale_logo.png";
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className='navbar'>
-    
+    <Link to="/">
       <img className="navbar-logo" src={logoImage}/>
-      
+    </Link> 
     
       <div
       className='navbar-search'>
@@ -26,9 +27,12 @@ function Navbar() {
           <p>cart</p> 
         </div>
 
-        <div className='navbar-option'>
-          <p>stores</p>
-        </div>
+        <Link to="/checkout">
+          <div className='navbar-basket'>
+            <ShoppingCartCheckoutIcon />
+            <span className='navbar-option-line-two'></span>
+          </div>
+        </Link>
       </div>
     </div>
   )

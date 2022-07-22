@@ -1,0 +1,25 @@
+.productCheckout{
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.productCheckout-info{
+  padding-left: 25px;
+  
+}
+
+.productCheckout-info > button{
+  background: #f9e3a6;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: blueviolet;
+  color: #111;
+  
+}
+
+.productCheckout-image{
+  object-fit: contain;
+  width: 175px;
+  height: 175px;
+ 
+}

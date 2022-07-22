@@ -8,9 +8,9 @@
   padding: 20px;
   max-height: 400px;
   min-width: 100px;
-  background-color:  rgb(247, 240, 255);
+  /* background-color:  white; */
   z-index: 1;
-  box-shadow: 5px 5px rgba(0,0,0,.15);
+  /* box-shadow: 5px 5px rgba(0,0,0,.15); */
 } 
 .store-info{
   height: 100px;
