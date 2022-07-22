@@ -23,7 +23,7 @@
   margin-bottom: -150px;
   mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
   }
-  
+
   .home-row1{
     margin-top: 20%;
     display: flex;
@@ -41,3 +41,31 @@
     margin-bottom: 15px;
   }
   
+  .home-banner-top{
+    height: 1px;
+    width: 100%;
+    background-color: #5a00b7 ;
+    box-sizing: border-box;
+  }
+  
+  .home-banner-bottom{
+    height: 1px;
+    width: 100%;
+    background-color: #5a00b7 ;
+    box-sizing: border-box;
+  }
+  
+  .business-banner{
+    align-items: center;
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    background-color: #5a00b7 ;
+    box-sizing: border-box;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+  }
+  
+  .banner-image-right{
+    transform: scaleX(-1); 
+  }

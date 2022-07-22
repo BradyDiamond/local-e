@@ -1,0 +1,52 @@
+.Card1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  width: 100%;
+  padding: 20px;
+  max-height: 400px;
+  min-width: 100px;
+  z-index: 1;
+  box-shadow: 5px 5px rgba(0,0,0,.15);
+} 
+
+.Card2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  width: 100%;
+  padding: 20px;
+  max-height: 400px;
+  min-width: 100px;
+  z-index: 1;
+  box-shadow: 5px 5px rgba(0,0,0,.15);
+} 
+
+
+.card-banner{
+  align-items: center;
+  display: flex;
+  height: 395px;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: #5a00b7 ;
+  width: 100%;
+  /* margin-left: calc(-50vw + 50%); */
+
+}
+
+.card-banner:hover{
+  cursor: pointer;
+}
+ 
+
+.business-card1{
+  z-index: -1;
+}
+.card-text{
+  z-index: 1;
+}

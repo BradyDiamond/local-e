@@ -1,0 +1,15 @@
+.footer{
+
+  align-items: center;
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  background-color: #5a00b7 ;
+  box-sizing: border-box;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  flex-shrink: 0;
+  padding: 20px;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
