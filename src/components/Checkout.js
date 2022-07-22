@@ -1,7 +1,6 @@
 import React from 'react';
 import './Checkout.css';
 import checkoutBanner from "./../img/checkoutbanner.png";
-import Subtotal from './Subtotal';
 import ProductCheckout from './ProductCheckout';
 import { useStateValue } from './StateProvider';
 
@@ -18,7 +17,7 @@ function Checkout() {
       <div className='checkout-left'>
         <img className='checkout-banner' src={checkoutBanner}/>
         <div>
-          <h2 className="checkout-title">{user?.email}'s Cart</h2>
+          <h2 className="checkout-title">Cart</h2>
           
           {cart.map(item => (
           <ProductCheckout 
@@ -35,7 +34,7 @@ function Checkout() {
 
   
       <div className='checkout-right'>
-        <Subtotal />
+    
       </div>
   
     </div>

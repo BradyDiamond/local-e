@@ -51,3 +51,23 @@
   background-color: #f9e3a6;
 }
 
+.navbar-option-line-one{
+  font-size: 10px;
+}
+
+.navbar-option-line-two{
+  font-size: 14px;
+  font-weight: 750;
+}
+.navbar-basket{
+  display: flex;
+  align-items: center;
+  color: #fbfbfa;
+  margin-right: 10px;
+}
+
+.navbar-basket-count {
+  margin-left: 10px;
+  margin-right: 10px;
+
+}

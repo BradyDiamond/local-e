@@ -1,5 +1,5 @@
 import React from 'react';
-import homeImage from "./../img/portland.jpg";
+import storeHomeImage from "./../img/portland-night.jpg";
 import CardFlip from "./CardFlip";
 import Product from './Product';
 import Store from './Store'
@@ -12,7 +12,7 @@ function StoreHome() {
     <div className='store-home'>
       <div className='store-home-container'>
         
-        <img className='home-image' src={homeImage}/>
+        <img className='home-image' src={storeHomeImage}/>
         
         <div className='store-home-row1'>
         <Store
@@ -23,7 +23,7 @@ function StoreHome() {
           image='http://d1ih9tlfsfrtid.cloudfront.net/J2gmSW7eRA2ZX7SowN6X_9PJ-Storefront-04575dd6_lemon_one_10.jpg'
           
           /> 
-        <Product id="2" title='cheese' price={200.00} image='https://media.wired.co.uk/photos/606db59587b15dc95f9cd468/16:9/w_1920,h_1080,c_limit/Cheese_01.jpg' rating={2} />
+     
         
 
         </div>
@@ -37,8 +37,10 @@ function StoreHome() {
 
         <div className='store-home-row'>
           <Product id="2" title='Mulder Cardboard Cutout' price={44.99} image='https://img.fruugo.com/product/6/41/208578416_max.jpg' rating={5} />
-        </div>
+    
 
+        <Product id="7" title='cheese' price={200.00} image='https://media.wired.co.uk/photos/606db59587b15dc95f9cd468/16:9/w_1920,h_1080,c_limit/Cheese_01.jpg' rating={2} />
+        </div>
         <div className='home-banner-top'></div>
         <div className='home-banner-bottom'></div>
 

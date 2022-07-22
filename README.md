@@ -100,4 +100,7 @@ react research (react context api)
 
 
 
+friday 7/15
 
+1:00 - 2:00
+Firebase Research

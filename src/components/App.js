@@ -4,6 +4,7 @@ import Home from "./Home";
 import Footer from "./Footer";
 import Store from "./Store";
 import StoreHome from "./StoreHome";
+import Checkout from "./Checkout";
 
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -15,14 +16,19 @@ function App() {
     <Router>
       <div className="app">
           <Switch>
-            <Route exact path="/" component={Home}>
+          <Route exact path="/checkout" component={Checkout}>
               <Navbar />
-              <Home />
+              <Checkout />
               <Footer />
             </Route>
             <Route exact path="/storehome" component={StoreHome}>
               <Navbar />
               <StoreHome />
+              <Footer />
+            </Route>
+            <Route exact path="/" component={Home}>
+              <Navbar />
+              <Home />
               <Footer />
             </Route>
           </Switch>
