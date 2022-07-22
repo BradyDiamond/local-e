@@ -2,6 +2,7 @@ import React from 'react';
 import './Navbar.css'
 import logoImage from "./../img/locale_logo.png";
 import SearchIcon from '@mui/icons-material/Search';
+import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 
 function Navbar() {
   return (

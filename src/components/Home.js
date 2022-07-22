@@ -14,8 +14,8 @@ function Home() {
         <div className='home-row1'>
           <Store
           id={1}
-          Name="Test Store"
-          catagory="Plant Store"
+          name="Test Store"
+          category="Plant Store"
           location="123 test AV."
           image='http://d1ih9tlfsfrtid.cloudfront.net/J2gmSW7eRA2ZX7SowN6X_9PJ-Storefront-04575dd6_lemon_one_10.jpg'
           
