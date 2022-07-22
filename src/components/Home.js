@@ -2,7 +2,7 @@ import React from 'react';
 import homeImage from "./../img/portland.jpg";
 import './Home.css';
 import CardFlip from "./CardFlip";
-import SlideShow from "./SlideShow"
+import Store from "./Store";
 import logoImage from "./../img/locale_logo.png";
 
 
@@ -19,7 +19,21 @@ function Home() {
         </div>
 
         <div className='home-row'>
-        <SlideShow />
+        <Store
+          id={1}
+          name="Test Store"
+          category="Plant Store"
+          location="123 test AV."
+          image='http://d1ih9tlfsfrtid.cloudfront.net/J2gmSW7eRA2ZX7SowN6X_9PJ-Storefront-04575dd6_lemon_one_10.jpg'
+          
+          />    <Store
+          id={1}
+          name="Test Store"
+          category="Plant Store"
+          location="123 test AV."
+          image='http://d1ih9tlfsfrtid.cloudfront.net/J2gmSW7eRA2ZX7SowN6X_9PJ-Storefront-04575dd6_lemon_one_10.jpg'
+          
+          />
         </div>
 
         <div className='home-banner-top'></div>
@@ -27,10 +41,14 @@ function Home() {
 
 
         <div className='home-row'>
+      
         </div>
 
         <div className='home-row'>  
         </div>
+
+
+
 
         <div className='home-row'>
         </div>
