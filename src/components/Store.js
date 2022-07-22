@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Store.css";
+import { Link, useHistory } from "react-router-dom";
 
 
 
@@ -7,7 +8,9 @@ function Store({ id, name, image, location, category}) {
  
   return (
     <div className='store'>
-      <img src={image} alt="" />
+      <Link to="/storehome" >
+      <img className='store-img' src={image} alt="" />
+      </Link>
       <div className='store-info'>
         <p>{name}</p>
         <small>{category}</small>
