@@ -4,8 +4,17 @@ import logoImage from "./../img/locale_logo.png";
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 import { Link } from "react-router-dom";
+import { useStateValue } from "./StateProvider";
+import { auth } from "./firebase"
 
 function Navbar() {
+  const [{ cart, user }, dispatch] = useStateValue();
+
+  const handleAuthentication = () => {
+    if (user) {
+      auth.signOut();
+    }
+  }
   return (
     <div className='navbar'>
     <Link to="/">
@@ -19,9 +28,13 @@ function Navbar() {
         
       </div>  
       <div className="navbar-nav">
-        <div className='navbar-option'>
-          <p>sign in</p>
+      <Link to={!user && "/login"}>
+        <div onClick={handleAuthentication} className='navbar-option'>
+          <span className='navbar-option-line-one'>Hello {!user? 'Guest' : user.email}
+          </span>
+          <span className='navbar-option-line-two'>{user ? 'Sign Out' : 'Sign-in'}</span>
         </div>
+        </Link>
 
         <div className='navbar-option'>
           <p>cart</p> 
@@ -30,7 +43,7 @@ function Navbar() {
         <Link to="/checkout">
           <div className='navbar-basket'>
             <ShoppingCartCheckoutIcon />
-            <span className='navbar-option-line-two'></span>
+            <span className='navbar-option-line-two'>{cart?.length}</span>
           </div>
         </Link>
       </div>
