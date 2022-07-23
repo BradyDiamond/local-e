@@ -3,7 +3,7 @@ import './Checkout.css';
 import checkoutBanner from "./../img/checkoutbanner.png";
 import ProductCheckout from './ProductCheckout';
 import { useStateValue } from './StateProvider';
-import Subtotal from "./Subtotal"
+import Subtotal from "./Subtotal";
 
 
 
@@ -18,7 +18,7 @@ function Checkout() {
       <div className='checkout-left'>
         <img className='checkout-banner' src={checkoutBanner}/>
         <div>
-          <h2 className="checkout-title">Cart</h2>
+          <h2 className="checkout-title">{user?.email}'s Cart</h2>
           
           {cart.map(item => (
           <ProductCheckout 

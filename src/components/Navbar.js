@@ -13,6 +13,7 @@ function Navbar() {
   const handleAuthentication = () => {
     if (user) {
       auth.signOut();
+     
     }
   }
   return (
@@ -32,12 +33,14 @@ function Navbar() {
         <div onClick={handleAuthentication} className='navbar-option'>
           <span className='navbar-option-line-one'>Hello {!user? 'Guest' : user.email}
           </span>
+          
           <span className='navbar-option-line-two'>{user ? 'Sign Out' : 'Sign-in'}</span>
         </div>
         </Link>
 
         <div className='navbar-option'>
-          <p>cart</p> 
+          <span className='navbar-option-line-one'>Reciepts</span>
+          <span className='navbar-option-line-two'>& Deliveries</span>
         </div>
 
         <Link to="/checkout">
@@ -48,6 +51,7 @@ function Navbar() {
         </Link>
       </div>
     </div>
+    
   )
 }
 
