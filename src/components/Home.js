@@ -1,7 +1,12 @@
 import React from 'react';
 import homeImage from "./../img/portland.jpg";
-import './Home.css';
 import logoImage from "./../img/locale_logo.png";
+import './Home.css';
+import homecatagoriesImage from "./../img/homeslide1.png";
+import homecatagories2Image from "./../img/homeflip2.png";
+import homecatagories3Image from "./../img/homeflip3.jpg";
+import { Link, useHistory } from "react-router-dom";
+
 
 
 
@@ -21,14 +26,16 @@ function Home() {
         <div className='home-banner-top'></div>
         <div className='home-banner-bottom'></div>
 
+        <Link to="/stores" >
         <div className='home-row'>
- 
+          <img className="homecat" src={homecatagoriesImage}/>      
+          <img className="homecat" src={homecatagories2Image}/>     
+          <img className="homecat" src={homecatagories3Image}/>        
         </div>
-
+        </Link>
         <div className='home-banner-top'></div>
         <div className='home-banner-bottom'></div>
-
-
+     
         <div className='home-row'>
       
         </div>
@@ -41,7 +48,7 @@ function Home() {
 
         <div className='home-row'>
         </div>
-
+-
 
       </div>
     </div>

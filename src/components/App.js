@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import Footer from "./Footer";
-import Store from "./Store";
+import Stores from "./Stores";
 import StoreHome from "./StoreHome";
 import Checkout from "./Checkout";
 import Login from "./Login";
@@ -47,6 +47,11 @@ function App() {
             <Route exact path="/storehome" component={StoreHome}>
               <Navbar />
               <StoreHome />
+              <Footer />
+            </Route>
+            <Route exact path="/stores" component={StoreHome}>
+              <Navbar />
+              <Stores />
               <Footer />
             </Route>
             <Route exact path="/" component={Home}>
