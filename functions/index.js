@@ -30,3 +30,4 @@ app.post('/payments/create', async (request, response) => {
 })
 
 exports.api = functions.https.onRequest(app)
+   
