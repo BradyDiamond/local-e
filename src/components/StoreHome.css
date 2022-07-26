@@ -69,11 +69,3 @@ mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 .banner-image-right{
   transform: scaleX(-1); 
 }
-/* .store-home-img{
-  display: flex;
-  z-index: 1;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-} */

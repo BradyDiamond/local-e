@@ -8,3 +8,18 @@ text-shadow: #f9e3a6;
 .font2 {
   color: #f9e3a6;
 }
+.head-image{
+  display: flex;
+  align-items: center;
+}
+.cat-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  width: 100%;
+  padding: 20px;
+  max-height: 400px;
+  min-width: 100px;
+}

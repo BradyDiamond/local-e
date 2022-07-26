@@ -1,10 +1,9 @@
 import React from 'react';
 import storeHomeImage from "./../img/portland-night.jpg";
-import CardFlip from "./CardFlip";
-import Product from './Product';
 import Store from './Store'
 import './Stores.css';
 import './Product.css';
+import storeHeader from "./../img/cat-header-img.png";
 
 
 function Stores() {
@@ -16,20 +15,29 @@ function Stores() {
         
         <div className='store-home-row1'>
       
-        
 
         </div>
-
+        <div className='cat-img'>
+        <img className='head-image' src={storeHeader}/>
+        </div>
+        
         <div className='store-home-row'>
+          
+{/*        
           <div className='card-banner'>
             <br/>
             <CardFlip />  
-          </div>
+          </div> */}
         </div>
 
         <div className='cat-header'>Shop Local<span className='font2'>E</span></div>
+        <div className='home-banner-top'></div>
+        <div className='home-banner-bottom'></div>
 
-        <div className='store-home-row'>      
+        <div className='store-home-row'>  
+        
+      
+          
         <Store
           id={1}
           name="Hello From Portland"
@@ -64,11 +72,13 @@ function Stores() {
           image='https://s3-media0.fl.yelpcdn.com/bphoto/NX8jiM28oQUGTHyc-QyoMQ/l.jpg'
           
           /> 
+          
         </div>
         <div className='home-banner-top'></div>
         <div className='home-banner-bottom'></div>
-
         <div className='cat-header'>Eat Local<span className='font2'>E</span></div>
+        <div className='home-banner-top'></div>
+        <div className='home-banner-bottom'></div>
 
         <div className='store-home-row'>
           <Store

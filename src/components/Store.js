@@ -12,7 +12,7 @@ function Store({ id, name, image, location, category}) {
       <img className='store-img' src={image} alt="" />
       </Link>
       <div className='store-info'>
-        <p>{name}</p>
+        <p className='store-name'>{name}</p>
         <small>{category}</small>
         <p className='store-location'>{location}</p>
       </div>

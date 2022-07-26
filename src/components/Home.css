@@ -16,7 +16,7 @@
 
 .home-image{
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 550px;
   max-width: 1500px;
   z-index: -1;
