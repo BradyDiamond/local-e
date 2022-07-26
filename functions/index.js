@@ -19,7 +19,7 @@ app.use(express.json());
 
 app.get('/', (request, response) => response.status(200).send("hello world"))
 
-app.post('/payments/create', (request, response) => {
+app.post('/payments/create', async (request, response) => {
   const total = request.query.total;
 
   console.log("recieved>>>", total);

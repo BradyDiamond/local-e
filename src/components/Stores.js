@@ -7,6 +7,9 @@ import storeHeader from "./../img/cat-header-img.png";
 
 
 function Stores() {
+
+  const storeData =[]
+
   return (
     <div className='store-home'>
       <div className='store-home-container'>
@@ -22,12 +25,7 @@ function Stores() {
         </div>
         
         <div className='store-home-row'>
-          
-{/*        
-          <div className='card-banner'>
-            <br/>
-            <CardFlip />  
-          </div> */}
+
         </div>
 
         <div className='cat-header'>Shop Local<span className='font2'>E</span></div>
@@ -39,7 +37,7 @@ function Stores() {
       
           
         <Store
-          id={1}
+          id={11}
           name="Hello From Portland"
           category="Plant Store"
           location="120 NW 10th Ave
@@ -47,7 +45,7 @@ function Stores() {
           image='https://s3-media0.fl.yelpcdn.com/bphoto/KX1yhBjTC5J_5RyV0o6S7Q/348s.jpg'
           /> 
             <Store
-          id={1}
+          id={12}
           name="MadeHere PDX"
           category="Plant Store"
           location="40 NW 10th Ave
@@ -56,7 +54,7 @@ function Stores() {
           
           /> 
             <Store
-          id={1}
+          id={13}
           name="The Blackthorn Mercantile"
           category="Home Decor, Gift Shop"
           location="Mississippi, Boise, North Portland,"
@@ -64,7 +62,7 @@ function Stores() {
           
           /> 
             <Store
-          id={1}
+          id={14}
           name="CULT."
           category="Plant Store"
           location="1204 NW Glisan St

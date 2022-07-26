@@ -9,7 +9,7 @@ import CurrencyFormat from 'react-currency-format';
 
 export function Delivery({ delivery }) {
   return (
-    <div className='delivery-id'>
+    <div className='delivery'>
       <h2>Delivery</h2>
       <p>{moment.unix(delivery.data.created).format("MMM do YYYY, h:mma")}</p>
       <p className='delivery-id'>
@@ -22,6 +22,7 @@ export function Delivery({ delivery }) {
         image={item.image}
         price={item.price}
         rating={item.rating}
+        hideButton
         />
       ))}
       <CurrencyFormat
