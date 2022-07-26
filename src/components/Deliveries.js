@@ -27,7 +27,7 @@ function Deliveries() {
 
   return (
     <div className='deliveries'>
-      <h1>Recent Deliveries</h1>
+      <h1 className='rd'>Recent Deliveries</h1>
       <div className='deliveries'>
         {deliveries?.map(delivery => (
           <Delivery  delivery={delivery} />

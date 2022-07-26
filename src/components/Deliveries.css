@@ -1,6 +1,13 @@
 .deliveries{
   padding: 20px 80px;
+  background-image: linear-gradient(to top, rgb(209, 174, 255), rgba(0,0,0,0));
 }
 .deliveries > h1 {
   margin: 30px 0;
 } 
+.rd{
+  text-align: center;
+  font-family: 'Passion One', cursive;
+  font-size: 50px;
+  color: blueviolet;
+}

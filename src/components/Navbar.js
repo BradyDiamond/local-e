@@ -38,10 +38,12 @@ function Navbar() {
         </div>
         </Link>
 
+        <Link to={"/deliveries"}>
         <div className='navbar-option'>
           <span className='navbar-option-line-one'>Reciepts</span>
-          <span className='navbar-option-line-two'>& Deliveries</span>
+          <span className='navbar-option-line-two'>& Deliveries</span> 
         </div>
+        </Link> 
 
         <Link to="/checkout">
           <div className='navbar-basket'>

@@ -1,9 +1,8 @@
 .delivery{
-   
   padding: 40px;
   margin: 20px 0;
-  border: 1px solid black;
-  background-color: aliceblue;
+  border:3px solid #bf9e3a;
+  background-color: white;
   position: relative;
 }
 .delivery-id{
