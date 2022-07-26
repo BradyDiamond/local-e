@@ -9,15 +9,12 @@ const corsHeaders = {
   'Access-Control-Allow-Headers' : "*",
   'Access-Control-Allow-Methods' : "post",
   'Access-Control-Allow-Origin' : "*",
-
 }
-
 
 app.use(cors({origin: true}));
 app.use(express.json());
 
-
-app.get('/', (request, response) => response.status(200).send("hello world"))
+app.get('/', (request, response) => response.status(200).send("running"))
 
 app.post('/payments/create', async (request, response) => {
   const total = request.query.total;
@@ -31,6 +28,5 @@ app.post('/payments/create', async (request, response) => {
 
   response.status(201).send({clientSecret: paymentIntent.client_secret,})
 })
-
 
 exports.api = functions.https.onRequest(app)

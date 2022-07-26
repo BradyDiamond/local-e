@@ -67,8 +67,8 @@ function Payment() {
           </div>
           <div className='payment-address'> 
             <p>{user?.email}</p>
-            <p>123 react lane</p>
-            <p>portland, OR</p>
+            <form></form>
+            <form></form>
           </div>
         </div>
 
@@ -106,7 +106,7 @@ function Payment() {
                 value={getCartTotal(cart)}
                 displayType={'text'}
                 prefix={"$"}/>
-                <button disabledButton = { disabledButton || processing || paymentSucceeded }>
+                <button className='payment-btn' disabledButton = { disabledButton || processing || paymentSucceeded }>
                   <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
                 </button>             
                 </div>

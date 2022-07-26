@@ -1,13 +1,16 @@
 .payment {
   background-color: white; 
+  
 }
 
 .payment-container > h1 {
   text-align: center;
   font-weight: 420;
   padding: 15px;
+  margin-top: 0px;
   border-bottom: 1px solid rgb(0, 0, 0);
   background-color: wheat;
+  font-family: 'Passion One', cursive;
 }
 
 .payment-container > h1 a {
@@ -19,6 +22,7 @@
   padding: 22px;
   margin: 0 22px;
   border-bottom: 1px solid black;
+  
 }
 
 .payment-title {
@@ -27,4 +31,27 @@
 
 .payment-address, .payment-items, .payment-form{
   flex: 0.8;
+}
+.payment-form{
+  max-width: 400px;
+}
+.payment-form > h3{
+  padding-bottom: 25px;
+
+}
+.payment-btn {
+  
+  background: #f9e3a6;
+  border: 3px solid;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border-color: blueviolet;
+  color: #111;
+  cursor: pointer;
+}
+
+.payment-btn:hover {
+transform: scale(1.05);
 }
