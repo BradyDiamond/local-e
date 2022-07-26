@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Deliveries.css';
-import { db } from "./firebase"
+import { db } from "./firebase";
 import { useStateValue } from './StateProvider';
 import { Delivery } from './Delivery' 
 
@@ -12,7 +12,7 @@ function Deliveries() {
     if(user) {
     db.collection('users')
       .doc(user?.uid)
-      .collection('orders')
+      .collection('deliveries')
       .orderBy('created','desc')
       .onSnapshot( snapshot => ( setDeliveries(snapshot.docs.map(doc => 
       ({
@@ -37,4 +37,4 @@ function Deliveries() {
   )
 }
 
-export default Deliveries;
+export default Deliveries

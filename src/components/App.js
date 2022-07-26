@@ -14,6 +14,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { loadStripe } from "@stripe/stripe-js" ;
 import { Elements } from "@stripe/react-stripe-js";
 
+
 const promise = loadStripe("pk_test_51LLtVFFI2k0X6SrBPvBxzN46Q1lHdZudqwAK40tjc1Tc1qkLrdxvlsHOiv08X7S5OObmhJruaGO5eTbxKA7yzQKi0078XbSB5c");
 
 function App() {

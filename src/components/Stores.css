@@ -23,3 +23,6 @@ text-shadow: #f9e3a6;
   max-height: 400px;
   min-width: 100px;
 }
+.store-img:hover{
+transform: scale(1.015);
+}

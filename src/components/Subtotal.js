@@ -17,9 +17,6 @@ function Subtotal() {
             <p>
               Subtotal ({cart?.length} items): <strong>{value}</strong>
             </p>
-            <small className="subtotal-gift">
-              <input type="checkbox" /> This order contains a gift
-            </small>
           </>
         )}
         decimalScale={2}

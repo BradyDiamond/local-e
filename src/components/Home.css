@@ -104,9 +104,11 @@
     margin-top: 50px;
     z-index: 1;
     transition: all .5s;
+    filter: none;
   }
 
   .homecat:hover{
-    transform: scale(1.05);
+    filter: saturate(60%);
+    transform: scale(1.005);
     z-index: 2;
   }
