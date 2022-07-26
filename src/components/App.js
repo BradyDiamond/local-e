@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Stores from "./Stores";
 import StoreHome from "./StoreHome";
 import Checkout from "./Checkout";
+import Deliveries from "./Deliveries";
 import Login from "./Login";
 import { useStateValue } from './StateProvider';
 import { auth } from "./firebase"
@@ -62,6 +63,11 @@ function App() {
               <Elements stripe={promise}>
               <Payment />
               </Elements>
+              <Footer />
+            </Route>
+            <Route exact path="/deliveries" component={Deliveries}>
+              <Navbar />
+              <StoreHome />
               <Footer />
             </Route>
             <Route exact path="/" component={Home}>
