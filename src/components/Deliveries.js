@@ -37,4 +37,4 @@ function Deliveries() {
   )
 }
 
-export default Deliveries
+export default Deliveries;

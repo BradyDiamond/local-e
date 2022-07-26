@@ -67,7 +67,7 @@ function App() {
             </Route>
             <Route exact path="/deliveries" component={Deliveries}>
               <Navbar />
-              <StoreHome />
+              <Deliveries />
               <Footer />
             </Route>
             <Route exact path="/" component={Home}>
