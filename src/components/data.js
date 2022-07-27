@@ -67,9 +67,9 @@ const data = {
   {
       "_id": "593e9297fe2e6d32c859ecf4",
       "index": 9,
-      "name": "The Blackthorn Mercantile",
+      "name": "Mr. Bubblegutz",
       "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/INdTibjvFHOLgdfS9QzTLw/l.jpg",    
-      "address": "580 Amber Street",
+      "address": "580 bean Street",
   },
   {
       "_id": "593e92970481ccf52f948e6d",
@@ -81,8 +81,8 @@ const data = {
   {
       "_id": "593e9297e09417746b79e1c5",
       "index": 11,
-      "name": "The Blackthorn Mercantile",
-      "picture": "https://s3-media0.fl.yelpcdn.com/bphoto/INdTibjvFHOLgdfS9QzTLw/l.jpg",    
+      "name": "Bradys Test store",
+      "picture": "http://d1ih9tlfsfrtid.cloudfront.net/J2gmSW7eRA2ZX7SowN6X_9PJ-Storefront-04575dd6_lemon_one_10.jpg",    
       "address": "580 Amber Street",
   },
   {

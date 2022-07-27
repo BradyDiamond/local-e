@@ -17,10 +17,11 @@ text-shadow: #f9e3a6;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  margin: 10px;
+
+  margin-bottom: 5px;
   width: 100%;
   padding: 20px;
-  max-height: 400px;
+ height: 400px;
   min-width: 100px;
 }
 .store-img:hover{
