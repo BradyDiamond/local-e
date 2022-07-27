@@ -12,7 +12,10 @@ const Card = ({property}) => {
             <div className="details">
                 <p className="location">
                     {name}
-                    <br />              
+                    <br />   
+                    <br />
+                    <br />
+                    <br />           
                 </p>                                 
             </div>
         </div>        

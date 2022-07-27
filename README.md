@@ -1,3 +1,47 @@
+# (Locale)
+
+#### By (Brady Diamond)
+
+## Technologies Used
+
+* _React_
+* _JavaScript_
+* _jsx_
+* _HTML_
+* _stripe_
+* _firebase_
+* _firebase: cloud functions_
+
+## Description
+
+* _This application is an online E commerce store_
+
+## Setup/Installation Requirements
+
+* _clone github repository_
+* _open project in code editor _
+* _type "npm install" in project terminal_
+* _type "npm run build" in project terminal_
+* _type "npm run start" in project terminal_
+* _type "firebase emulators:start" in project terminal _
+* _navigate to store to add products to cart_
+
+
+
+
+## Known Bugs
+
+* _search bar disabled_
+* _stores are currently hard coded and all link to one store page_
+
+## License
+_licensed under the [MIT License] (LICENSE)_
+
+_Copyright (c) _2022_ _Brady Diamond_ 
+## Contact Information
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,6 +88,10 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+slide bar component created with tutorial:  https://www.youtube.com/watch?v=3ax9TW2c2bY
+
+auth/payment were created using tutorials from  https://www.cleverprogrammer.com/
 
 ### Code Splitting
 

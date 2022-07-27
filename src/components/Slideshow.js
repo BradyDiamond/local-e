@@ -42,7 +42,8 @@ class Slideshow extends Component {
             onClick={() => this.nextProperty()} 
             disabled={property.index === data.properties.length-1}
           >►</button>      
-           
+          <br/>
+          <br/>
         </div>
 
         <div className="page">

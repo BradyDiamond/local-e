@@ -50,3 +50,10 @@
 .card-text{
   z-index: 1;
 }
+.location{
+  color: #5a00b7;
+  font-family: 'Passion One', cursive;
+  font-size: 30px;
+  margin-top: -0px;
+  margin-bottom: -5px;
+}

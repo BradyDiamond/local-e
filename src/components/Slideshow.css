@@ -4,10 +4,10 @@ body {
   font-family: sans-serif;
   overflow-x: hidden; }
 
-  .slide-btns{
-    align-items: center;
-display: flex;
-font-size: 20px;
+.slide-btns{
+  align-items: center;
+  display: flex;
+  font-size: 20px;
   }
 
 .slide-btn2{
@@ -44,10 +44,6 @@ font-size: 20px;
   text-decoration: none;
   color: transparent; }
 
-/* .nav a.active {
-  background-color: #61DAFB;
-  color: #222; } */
-
 section {
   padding: 20px 0;
   max-width: 600px;
@@ -55,59 +51,57 @@ section {
 
 
 .card {
-  /* border: 3px #f3f3f3 solid; */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
   transition: all 0.3s linear;
   cursor: pointer;
   background-color: #f3f3f3;
   padding: 10px;
-  max-width: 220px;
+  max-width: 300px;
   text-align: left;
   margin: 0 auto; 
   border-radius: 50%;
   z-index: 3;
 }
-  .card:hover {
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; 
-  }
-  .card img {
-    width:200px;
-    height: 200px;
-    max-width: calc(100%);
-    margin: 0 auto;
-    display: block; 
-    border-radius: 50%;
-    z-index: 3;
-  }
-  .card .index {
-    background-color: rgba(0, 0, 0, 0.2);
-    color: #fff;
-    line-height: 20px;
-    font-size: 14px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: block;
-    padding: 0 10px; 
-  }
-  
-  .card .details {
-    position: relative;
-    text-align: center;
-  }
-  .card .features {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-    .card .features li {
-      padding-left: 24px;
-      margin-right: 10px;
-      display: inline-block; }
-      .card .features li span {
-        display: none; }
+.card:hover {
+  background-color: #f3f3f3;
+  border-color: #f3f3f3; 
+}
+.card img {
+  width:220px;
+  height: 220px;
+  max-width: calc(100%);
+  margin: 0 auto;
+  display: block; 
+  border-radius: 50%;
+  z-index: 3;
+}
+.card .index {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  line-height: 20px;
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  padding: 0 10px; 
+}
 
+.card .details {
+  position: relative;
+  text-align: center;
+}
+.card .features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.card .features li {
+  padding-left: 24px;
+  margin-right: 10px;
+  display: inline-block; }
+  .card .features li span {
+    display: none; }
 
 .cards-slider-wrapper {
   display: flex;
@@ -120,8 +114,7 @@ section {
     transform: scale(0.8);
     box-shadow: none;
     border-radius: 50%;
-    background-color: transparent;
-   
+    background-color: transparent;   
     transition: opacity 300ms linear, border-color 300ms linear, background-color 300ms linear, transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955); }
     .cards-slider-wrapper .card .details {
       opacity: 0;
