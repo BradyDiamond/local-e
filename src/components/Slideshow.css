@@ -4,7 +4,22 @@ body {
   font-family: sans-serif;
   overflow-x: hidden; }
 
+  .slide-btns{
+    align-items: center;
+display: flex;
+font-size: 20px;
+  }
 
+.slide-btn2{
+  background-color: transparent;
+  border: transparent;
+  font-size: 20px;
+}
+.slide-btn1{
+  background-color: transparent;
+  border: transparent;
+  font-size: 20px;
+}
 
 .slideshow {
 
@@ -79,6 +94,7 @@ section {
   
   .card .details {
     position: relative;
+    text-align: center;
   }
   .card .features {
     list-style: none;

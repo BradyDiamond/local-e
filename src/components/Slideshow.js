@@ -11,7 +11,7 @@ class Slideshow extends Component {
     super(props);
     this.state = {
       properties: data.properties,
-      property: data.properties[0]
+      property: data.properties[5]
     }
   }
 
@@ -33,19 +33,20 @@ class Slideshow extends Component {
     const {properties, property} = this.state;
     return (
       <div className="slideshow">
-
-        <button 
-          onClick={() => this.nextProperty()} 
-          disabled={property.index === data.properties.length-1}
-        >  next</button>
-        <button 
-          onClick={() => this.prevProperty()} 
-          disabled={property.index === 0}
-        >prev</button>
+        <div className='slide-btns'>
+          <button className='slide-btn2'
+            onClick={() => this.prevProperty()} 
+            disabled={property.index === 0}
+          >◄</button> 
+          <button className='slide-btn1'
+            onClick={() => this.nextProperty()} 
+            disabled={property.index === data.properties.length-1}
+          >►</button>      
+           
+        </div>
 
         <div className="page">
-            <section>             
-            </section>
+          <br/>          
 
             <div className="col">
               <div className={`cards-slider active-slide-${property.index}`}>

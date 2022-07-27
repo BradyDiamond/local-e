@@ -5,6 +5,7 @@ import Product from './Product';
 import Store from './Store'
 import './StoreHome.css';
 import './Product.css';
+import data from './data';
 
 
 function StoreHome() {

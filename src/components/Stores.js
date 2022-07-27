@@ -38,7 +38,7 @@ function Stores() {
           <Slideshow />
       
         </div>
-
+        <br/>
         <div className='home-banner-top'></div>
         <div className='home-banner-bottom'></div>
 
