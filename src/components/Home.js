@@ -28,9 +28,10 @@ function Home() {
 
         <Link to="/stores" >
         <div className='home-row'>
-          <img className="homecat" src={homecatagoriesImage}/>      
+          <img className="homecat" src={homecatagoriesImage}/> 
+          <img className="homecat" src={homecatagories3Image}/>       
           <img className="homecat" src={homecatagories2Image}/>     
-          <img className="homecat" src={homecatagories3Image}/>        
+               
         </div>
         </Link>
         <div className='home-banner-top'></div>

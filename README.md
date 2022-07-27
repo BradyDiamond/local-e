@@ -38,6 +38,11 @@
 _licensed under the [MIT License] (LICENSE)_
 
 _Copyright (c) _2022_ _Brady Diamond_ 
+
+slide bar component created with tutorial:  https://www.youtube.com/watch?v=3ax9TW2c2bY
+
+auth/payment were created using tutorials from  https://www.cleverprogrammer.com/
+
 ## Contact Information
 
 
@@ -89,9 +94,6 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-slide bar component created with tutorial:  https://www.youtube.com/watch?v=3ax9TW2c2bY
-
-auth/payment were created using tutorials from  https://www.cleverprogrammer.com/
 
 ### Code Splitting
 
