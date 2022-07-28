@@ -8,10 +8,9 @@
   padding: 20px;
   max-height: 400px;
   min-width: 100px;
-  /* background-color:  white; */
   z-index: 1;
-  /* box-shadow: 5px 5px rgba(0,0,0,.15); */
 } 
+
 .store-info{
   height: 100px;
   margin-bottom: 15px;
@@ -24,19 +23,29 @@ margin-top: 5px;
 }
 
 .store-img {
-  width: 25vw;
-  max-width: 300px; 
-  max-height: 300px;
-  height: 25vh;     
+  width: 100vw;
+  max-width: 700px; 
+  max-height: 400px;
+  height: 50vh;     
   border-width: 8px;
   border-width: 10px;
   border-radius: 10px;
-  border-radius: 50%;
-
+  border: 1px solid#5a00b7;
 }
+
 .store-name{
   text-align: center;
   font-size: x-large;
   font-family: 'Passion One', cursive;
   color: #5a00b7 ;
+}
+.map{
+  width: 100vw;
+  max-width: 700px; 
+  max-height: 400px;
+  height: 50vh;     
+  border-width: 8px;
+  border-width: 10px;
+  border-radius: 10px;
+  border: 1px solid#5a00b7;
 }

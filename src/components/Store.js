@@ -5,7 +5,6 @@ import { Link, useHistory } from "react-router-dom";
 
 
 function Store({ id, name, image, location, category}) {
- 
   return (
     <div className='store'>
       <Link to="/storehome" >

@@ -36,9 +36,13 @@ transform: scale(1.015);
 }
 .logo-text{
   height: 33px;
+  margin-bottom: -5px;
+  margin-top: 5px;
 }
 .logo-text-head{
   height: 66px;
+ 
+  
 }
 .flavor-text-title{
   font-size: 33px;

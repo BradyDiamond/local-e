@@ -19,7 +19,6 @@ app.get('/', (request, response) => response.status(200).send("running"))
 app.post('/payments/create', async (request, response) => {
   const total = request.query.total;
 
-  console.log("recieved>>>", total);
 
   const paymentIntent = await stripe.paymentIntents.create({
     amount: total,

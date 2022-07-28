@@ -5,7 +5,7 @@ import Product from './Product';
 import Store from './Store'
 import './StoreHome.css';
 import './Product.css';
-import data from './data';
+import StoreFlip from './StoreFlip';
 
 
 function StoreHome() {
@@ -16,17 +16,9 @@ function StoreHome() {
         <img className='home-image' src={storeHomeImage}/>
         
         <div className='store-home-row1'>
-        <Store
-          id={1}
-          name="Test Store"
-          category="Plant Store"
-          location="123 test AV."
-          image='http://d1ih9tlfsfrtid.cloudfront.net/J2gmSW7eRA2ZX7SowN6X_9PJ-Storefront-04575dd6_lemon_one_10.jpg'
-          
-          /> 
-     
-        
-
+        <div className='store-banner'>
+        <StoreFlip />
+        </div>
         </div>
 
         <div className='store-home-row'>

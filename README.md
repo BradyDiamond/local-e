@@ -26,9 +26,6 @@
 * _type "firebase emulators:start" in project terminal _
 * _navigate to store to add products to cart_
 
-
-
-
 ## Known Bugs
 
 * _search bar disabled_
