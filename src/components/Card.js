@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Card = ({property}) => {
-    const {index, picture, name, address, catagory} = property;
+    const {index, picture, name, address,} = property;
     return (     
         <div id={`card-${index}`} className="card">
         <Link to="/storehome">
