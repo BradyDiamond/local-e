@@ -43,6 +43,7 @@ function Stores() {
       
         </div>
         <br/>
+        <br/>
         <div className='home-banner-top'></div>
         <div className='home-banner-bottom'></div>
 

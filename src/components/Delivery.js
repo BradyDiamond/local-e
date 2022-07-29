@@ -11,7 +11,7 @@ export function Delivery({ delivery }) {
   return (
     <div className='delivery'>
       <h2>Delivery</h2>
-      <p>{moment.unix(delivery.data.created).format("MM do YYYY, h:mma")}</p>
+      <p>{moment.unix(delivery.data.created).format("MM DD YYYY, h:mma")}</p>
       <p className='delivery-id'>
           <small>{delivery.id}</small>
       </p>
